@@ -1346,12 +1346,22 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 380px;
+
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
+@media only screen and (max-width: 2000px) {
+    .header-logo a {
+        width: 380px;
+    }
+}
 
+@media only screen and (max-width: 600px) {
+    .header-logo a {
+        width: 180px;
+    }
+}
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
