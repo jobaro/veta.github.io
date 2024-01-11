@@ -1359,7 +1359,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 @media only screen and (max-width: 600px) {
     .header-logo a {
-        width: 180px;
+        width: 220px;
     }
 }
 /* ------------------------------------------------------------------- 
